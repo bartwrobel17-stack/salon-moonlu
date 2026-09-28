@@ -1,3 +1,3 @@
 import type {Metadata} from "next";import "./globals.css";
-export const metadata:Metadata={title:"MOONLU | Monika Leszczyńska",description:"Salon fryzjerski MOONLU we Wrocławiu. Promień 4."};
+export const metadata:Metadata={title:"MOONLU | Monika Leszczyńska | Salon fryzjerski Wrocław",description:"MOONLU - salon fryzjerski Moniki Leszczyńskiej przy ul. Promień 4 we Wrocławiu. Specjalizacja: włosy kręcone, stylizacja i koloryzacja.",keywords:["MOONLU","Monika Leszczyńska","fryzjer Wrocław","włosy kręcone","salon fryzjerski Wrocław"],openGraph:{title:"MOONLU | Salon fryzjerski Wrocław",description:"Włosy, które mają charakter. MOONLU we Wrocławiu."}};
 export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="pl"><body>{children}</body></html>}
